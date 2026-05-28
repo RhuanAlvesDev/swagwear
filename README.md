@@ -1,4 +1,4 @@
-#  SwagWear API
+#  SwagWear
 
 Backend de um e-commerce streetwear desenvolvido com Node.js, Express e PostgreSQL.
 
