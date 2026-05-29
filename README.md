@@ -1,8 +1,10 @@
-#  SwagWear
+# SwagWear
 
-Backend de um e-commerce streetwear desenvolvido com Node.js, Express e PostgreSQL.
+Projeto Full Stack de um e-commerce streetwear desenvolvido para praticar conceitos de desenvolvimento web moderno, APIs REST, banco de dados e integração entre Front-end e Back-end.
 
-##  Tecnologias
+## Tecnologias
+
+### Backend
 
 * Node.js
 * Express
@@ -11,23 +13,57 @@ Backend de um e-commerce streetwear desenvolvido com Node.js, Express e PostgreS
 * JWT
 * Bcrypt
 
-##  Funcionalidades
+### Frontend
 
-* Cadastro e login
-* Autenticação JWT
+* React
+* Vite
+* React Router DOM
+* CSS3
+
+## Funcionalidades
+
+### Backend
+
+* Cadastro de usuários
+* Login com autenticação JWT
 * Controle de acesso Admin/User
 * CRUD de produtos
 * Busca e filtro por categoria
+* Integração com PostgreSQL
 
-##  Estrutura
+### Frontend
 
-* Controllers
-* Routes
-* Middlewares
-* Prisma ORM
-* PostgreSQL
+* Home responsiva
+* Hero Section
+* Catálogo de produtos
+* Página de produtos
+* Busca de produtos
+* Filtro por categoria
+* Navegação com React Router
+* Integração com API REST
 
-## ⚙️ Como executar
+## Estrutura do Projeto
+
+```txt
+swagwear
+│
+├── backend
+│   ├── controllers
+│   ├── routes
+│   ├── middlewares
+│   ├── prisma
+│   └── server.js
+│
+└── frontend
+    ├── pages
+    ├── assets
+    ├── components
+    └── App.jsx
+```
+
+## Como Executar
+
+### Backend
 
 ```bash
 cd backend
@@ -35,11 +71,38 @@ npm install
 npm run dev
 ```
 
-## 📌 Status
+### Frontend
 
-✅ Backend finalizado
-🚧 Frontend em desenvolvimento
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-## 👨‍💻 Autor
+## Status do Projeto
+
+Versão Atual: V2
+
+Implementado:
+
+* Home completa
+* Página de produtos
+* Integração Frontend e Backend
+* Filtros de produtos
+* React Router
+* API REST
+
+Próximas funcionalidades:
+
+* Login
+* Cadastro
+* Painel Administrativo
+* Upload de Imagens
+* Carrinho de Compras
+* Favoritos
+
+## Autor
 
 Rhuan Alves
+
+GitHub: https://github.com/RhuanAlvesDev
